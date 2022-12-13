@@ -8,5 +8,5 @@ app.listen(3000, () => {
 
 // GETテスト
 app.get("/test", (req: express.Request, res: express.Response) => {
-  res.send("OK");
+  res.send("OK!!");
 });
